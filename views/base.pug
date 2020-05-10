@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title My Site - #{title}
+    block scripts
+    block style
+
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/contact") Contact Us]
+            li #[a(href="/") Class Information]
+    block content
+    block#footer
+        | Copyrights © Nrtykala Dance Academy 2020 | All rights Reserved                 

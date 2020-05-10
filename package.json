@@ -1,0 +1,17 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "Dance Academy Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ritik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13",
+    "pug": "^2.0.4"
+  }
+}

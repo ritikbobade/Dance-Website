@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head 
+    title Nrtykala Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") Class Information]
+    section#introsection
+        div Nrtykala Dance Academy
+        div.small  It's Your Soul That's Dancing
+    section#missionsection
+        h2 Our mission 
+        div.card
+            h3 Dance Perfectionst
+            div.card-box
+                div.card-img
+                    img(src="/static/dance1.png")
+                div.card-content 
+                p Adorn your Hobby with Dance    
+        div.card
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/dance2.png")
+                div.card-content 
+                p The joy of Learning Best   
+
+        div.card
+            h3 Expert Training 
+            div.card-box
+                div.card-img
+                    img(src="/static/dance3.png")
+                div.card-content 
+                p Good dance for Good Moments    
+    section#sponsorsection
+        h2 Our Sponsor's
+        div#sponsors
+            img(src="/static/d1.png", alt="sponsor image", class="spimage")
+            img(src="/static/d2.png", alt="sponsor image", class="spimage")
+            img(src="/static/d3.png", alt="sponsor image", class="spimage")
+            img(src="/static/d4.jpg", alt="sponsor image", class="spimage")
+       
+    footer#footer
+        | Copyrights © Nrtykala Dance Academy 2020 | All rights Reserved                           
+    script
+      include ../static/index.js
